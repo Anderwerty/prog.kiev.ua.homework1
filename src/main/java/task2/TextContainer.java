@@ -26,7 +26,7 @@ public class TextContainer {
     }
 
     /**
-     * Get value of the balance variable.
+     * Get value of the text variable.
      * @return value of the text variable.
      */
     public String getText() {
