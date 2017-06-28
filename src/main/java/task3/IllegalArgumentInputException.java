@@ -1,7 +1,14 @@
 package task3;
 
 /**
- * Created by admin on 10.06.2017.
+ *
  */
-public class IllegalArgumentInputException {
+public class IllegalArgumentInputException extends Exception {
+
+    public IllegalArgumentInputException() {
+    }
+
+    public IllegalArgumentInputException(String message) {
+        super(message);
+    }
 }

@@ -1,7 +1,10 @@
 package task3;
 
 /**
- * Created by admin on 08.06.2017.
+ * <p>Annotation{@link Save} parameter type.</p>
+ *
  */
-public class StateSave {
+public enum StateSave {
+    STANDART,
+    OWN_TYPE;
 }
